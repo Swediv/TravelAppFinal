@@ -32,6 +32,8 @@ class MainViewController: UIViewController {
         setupSubviews()
         applyConstraints()
         presenter.viewDidLoaded()
+        
+        
     }
     
     // MARK: - Internal setup
